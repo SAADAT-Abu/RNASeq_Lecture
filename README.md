@@ -22,12 +22,12 @@ This repository contains the script and data required for RNA-Seq differential e
 ### R Packages
 The following R packages are required:
 
-- tidyverse      # for data manipulation
-- DESeq2         # for Differential gene expression analysis
-- ggplot2        # for plotting
-- plotly         # for interactive plots
-- GenomicRanges  # for creating and manipulating genomic ranges
-- mixOmics       # for PCA
+- tidyverse
+- DESeq2
+- ggplot2
+- plotly
+- GenomicRanges
+- mixOmics
 
 Install these packages using the following commands in R:
 ```R
