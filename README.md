@@ -31,15 +31,22 @@ The following R packages are required:
 
 Install these packages using the following commands in R:
 ```R
-install.packages(c("ggplot2", "pheatmap", "reshape2", "RColorBrewer"))
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install("DESeq2")
+
+install.packages(c("tidyverse", "ggplot2", "plotly"))
+
+# Install Bioconductor packages
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+  install.packages("BiocManager")
+}
+BiocManager::install(c("DESeq2", "GenomicRanges", "mixOmics"))
+
 ```
 
-### Clone the Repository:
+### Clone this Repository:
 
 ```bash
+
 git clone https://github.com/your-username/RNA_Seq_Analysis.git
 cd RNA_Seq_Analysis
+
 ```

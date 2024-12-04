@@ -2,7 +2,12 @@
 title: "RNA_Sequencing"
 author: "Abu Saadat"
 date: "2024-12-04"
-output: html_notebook
+output:
+  html_document:
+    code_folding: hide
+    df_print: paged
+    fig_caption: yes
+  chunk_output_type: inline
 ---
 
 ## Loading the required libraries
