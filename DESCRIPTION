@@ -8,10 +8,7 @@ Description: RNAseq analysis using DESeq2
 License: What license it uses
 Depends: 
     BiocManager,
-    DESeq2,
-    GenomicRanges,
     ggplot2,
-    mixOmics,
     plotly,
     reshape2,
     rmarkdown,
