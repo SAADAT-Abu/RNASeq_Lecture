@@ -2,10 +2,7 @@
 title: "RNA_Sequencing"
 author: "Abu Saadat"
 date: "2024-12-04"
-output: 
-  html_document:
-    code_folding: hide
-    echo: false
+output: html_notebook
 ---
 
 ## Loading the required libraries
