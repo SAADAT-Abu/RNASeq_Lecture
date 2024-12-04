@@ -1,3 +1,6 @@
+<!-- badges: start -->
+  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SAADAT-Abu/RNASeq_Lecture/master?urlpath=rstudio)
+  <!-- badges: end -->
 # RNA-Seq Analysis with DESeq2
 
 This repository contains the script and data required for RNA-Seq differential expression analysis using the DESeq2 package in R. The script guides you through the steps of data preprocessing, normalization, and differential expression analysis.
