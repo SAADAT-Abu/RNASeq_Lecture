@@ -1,0 +1,20 @@
+Type: Compendium
+Package: RNASeq Lecture
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person("Abu", "Saadat", , "saadatabu1996@gmail.com", role = c("aut", "cre"))
+Description: RNAseq analysis using DESeq2
+License: What license it uses
+Depends: 
+    BiocManager,
+    DESeq2,
+    GenomicRanges,
+    ggplot2,
+    mixOmics,
+    plotly,
+    reshape2,
+    rmarkdown,
+    tidyverse
+Encoding: UTF-8
+LazyData: true
