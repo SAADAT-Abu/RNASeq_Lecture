@@ -1,0 +1,4 @@
+# Auto-load RNA_sequencing.Rmd when the RStudio session starts
+if (interactive() && requireNamespace("rstudioapi", quietly = TRUE)) {
+  rstudioapi::navigateToFile("RNA_sequencing.Rmd")
+}

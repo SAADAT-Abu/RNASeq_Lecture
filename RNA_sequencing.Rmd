@@ -26,9 +26,9 @@ library(mixOmics)       # for PCA
 
 ```{r}
 
-assay<- read.csv("assay.csv", row.names = 1)  # Importing gene expression assay data
-colData <- read.csv("colData.csv")            # Importing clinical information
-temp<- read.csv("rawRange.csv")               # Importing rawRanges as dataframe
+assay<- read.csv("data/assay.csv", row.names = 1)  # Importing gene expression assay data
+colData <- read.csv("data/colData.csv")            # Importing clinical information
+temp<- read.csv("data/rawRange.csv")               # Importing rawRanges as dataframe
 
 rowRanges <- GRanges(                                             # creating rawRanges from dataframge
              seqnames = Rle(temp$chr),                            # Chromosome names

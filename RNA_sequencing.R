@@ -1,20 +1,3 @@
-onLoad <- function(libname, pkgname) {
-  # List of Bioconductor packages package depends on
-  bioc_packages <- c("GenomicRanges","mixOmics","DESeq2") 
-  # Check if BiocManager is available; install it if not
-  if (!requireNamespace("BiocManager", quietly = TRUE)) {
-    install.packages("BiocManager")
-  }
-  
-  # Install missing Bioconductor dependencies
-  for (pkg in bioc_packages) {
-    if (!requireNamespace(pkg, quietly = TRUE)) {
-      BiocManager::install(pkg, ask = FALSE)
-    }
-  }
-  
-}
-
 ## ----message=FALSE, warning=FALSE--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)      # for data manipulation
